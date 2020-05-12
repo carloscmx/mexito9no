@@ -103,9 +103,10 @@
 
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
           <div class="icon-box">
-            <div class="icon"><i class="ri-fingerprint-line"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            <div class="icon"><img src="cover/assets/img/clases/at4.png"></div>
+            <h4 class="title"><a href="ejercicio4.php">Practica 4- Intervalo de fechas</a></h4>
+            <p class="description">La aplicación pide un intervalo de fecha y permita que el usuario seleccione los días a mostrar, la aplicación debe de ser capaz de mostrar todos los días que pertenecen a ese intervalo de fecha</p>
+            <a href="ejercicio4.php">Ver mas...</a>
           </div>
         </div>
 
