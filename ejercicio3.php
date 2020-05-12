@@ -11,7 +11,7 @@ include_once("masterpage/head.php");
 
 <p>Escribe un nombre para crear un archivo.</p><br>
 <form action="ejercicio3.php" method="POST">
-<input type="text" name="nombrearchivo" required>
+<input type="text" name="nombrearchivo" required class="form-control" maxlength="20">
 <br><br>
 <button class="btn btn-success">Crear archivo</button>
 </form>

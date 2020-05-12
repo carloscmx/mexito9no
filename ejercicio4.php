@@ -12,7 +12,7 @@ include_once("masterpage/head.php");
 	
 	<div class="container">
 		<input  class="form-control" type="date"  ng-model="datos.fecha0" />	<br>
-		<input type="date" ng-model="datos.fecha1 " required>
+		<input type="date" ng-model="datos.fecha1 " required class="form-control">
 		<br>
 		<label ng-repeat="dias in days">
 		<br>

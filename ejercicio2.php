@@ -13,14 +13,14 @@ include_once("masterpage/head.php");
 	<tr>
 	<td>
     <label>Ingresar la longitud de la serie de Lucas</label>
-    <input type="text" name="textlucas" required pattern="[0-9]+">
+    <input type="text" name="textlucas" required pattern="[0-9]+" class="form-control"> 
     </td>
 	</tr>
 
 	<tr>
 	<td>
     <label>Ingresar la logitud de la serie de Fibonacci</label>
-    <input type="text" name="textfibo" required pattern="[0-9]+">
+    <input type="text" name="textfibo" required pattern="[0-9]+" class="form-control">
     </td>
 	</tr>
 	<tr>
