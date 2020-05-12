@@ -1,14 +1,10 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="fechaApp" ng-controller="mainCtrl">
+
 <style>
-input:valid, textarea:valid {
-  background:green;
-}
-input:invalid, textarea:invalid {
-  background:red;
-}
+
 .cover{
     background-image: url("cover/cover.jpg");
     background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
@@ -18,23 +14,28 @@ input:invalid, textarea:invalid {
         margin: 0; /* to remove the default white margin of body */
         padding: 0; /* to remove the default white margin of body */
         overflow: hidden;
-        
+		overflow: scroll;
     
 
 }
 </style>
 <link rel="stylesheet" href="html/css/bootstrap.min.css">
 
+<link rel="stylesheet" href="">
+	<script src="ejercicio4/js/angular.min.js"></script>
+	<script src="ejercicio4/js/app.js"></script>
+	<script src="ejercicio4/js/services.js"></script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 3</title>
+    <title>Ejercicio 4</title>
 </head>
 <body class="cover">
 <center>
-<h3>Practica 3- Imprimir numeros impares.</h3> <br> <br>
-<p>Instrucciones: Inserte el nombre para crear un archivo de texto.</p> <br>
-<p>Objetivo: El sistema generará un archivo con el nombre deseado y mostrara los numeros impares del 1 al 100.</p>
+<h3>Practica 4- Imprimir numeros impares.</h3> <br> <br>
+<p>Instrucciones: Inserte el intervalo de fechas y elija los dias a imprimir.</p> <br>
+<p>Objetivo: - Realiza una aplicación que pida un intervalo de fecha y permita que el usuario seleccione los días a mostrar, la aplicación debe de ser capaz de mostrar todos los días que pertenecen a ese intervalo de fecha. .</p>
 </center>
 <div class="container">
   <div class="row">
@@ -43,40 +44,25 @@ input:invalid, textarea:invalid {
     <div class="col-sm form-control">
     <center>
 
-<p>Escribe un nombre para crear un archivo.</p><br>
-<form action="ejercicio3.php" method="POST">
-<input type="text" name="nombrearchivo" required>
-<br><br>
-<button class="btn btn-success">Crear archivo</button>
-</form>
+	<h1 >{{ datos.fecha}}</h1>
+	
+	
+	<div class="container">
+		<input  class="form-control" type="date"  ng-model="datos.fecha0" />
+		<input type="date" ng-model="datos.fecha1 " required>
+		<br>
+		<label ng-repeat="dias in days">
+		<input type="checkbox" isChecked="{{dias.isChecked}}" ng-model="dias.isChecked" required>
+		{{dias.nombre}}
+		</label>
+	</div>
+	<button ng-click="listar()" class="btn btn-success">Imprimir</button>
+	<br>
+	<h4 ng-repeat="resulta in resultado">
+		{{resulta}}
+	</h4>
 
-<?php
-if(isset($_POST['nombrearchivo']))
-{
-  $nombrearchivo=$_POST['nombrearchivo'];
-  $fh = fopen($nombrearchivo.'.txt', 'w+b') or die("Se produjo un error al crear el archivo");
-  $cadena="";
-for($i=0; $i<101; $i++){
-  
-  if ($i%2==0){
-  //  echo "el $i es par";
-}else{
-  $cadena .="El numero ".$i." es impar"."\n";
-}
-}
-  $texto =$cadena;
-  
-  fwrite($fh, $texto) or die("No se pudo escribir en el archivo");
-  
-  fclose($fh);
-  
-  echo "Se ha escrito sin problemas"."<br>";
-  echo '<a href="'.$nombrearchivo.'.txt" target="_blank">'.$nombrearchivo.'.txt</a>';
-}
-?>
-
-
-</center>
+	</center>
 </div>
     <div class="col-sm">
         <input type="button" value="Regresar" class="btn btn-danger" onclick="goBack()">

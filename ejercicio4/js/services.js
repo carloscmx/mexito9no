@@ -5,7 +5,7 @@ app.factory('Fecha', ['$http', '$q', function($http, $q) {
         fecha: {},
         loadfecha: function(dato) {
             var d = $q.defer()
-            $http.post('php/fechas.php', dato, {
+            $http.post('ejercicio4/php/fechas.php', dato, {
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
             }).then(function(response) {
                 self.fecha = response.data.response
