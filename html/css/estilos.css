@@ -1,0 +1,126 @@
+/* variables */
+
+:root {
+  --bg-primary: #ff6600;
+  --bg-secondary: #ff9933;
+  --text-color-light: #fff;
+}
+
+*, body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgba(238, 238, 238, 0.301); */
+  font-family: 'Roboto', sans-serif;
+}
+
+.menucabecera {
+  background-color: var(--bg-secondary);
+}
+
+.menucabecera a:link {
+  color: var(--text-color-light);
+}
+
+.menucabecera .brand-logo {
+  font-size: 50px;
+  vertical-align: -10%;
+  color: white !important;
+}
+
+.menucabecera .logoimage {
+  background-color: white;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.menucabecera .text-menu {
+  font-size: 20px;
+  text-transform: lowercase;
+  border-right: var(--bg-primary) 2px solid;
+  padding-right: 5px;
+  text-decoration: none !important;
+}
+
+.menucabecera .text-menu:hover {
+  color: var(--bg-primary);
+}
+
+.bg-navbar {
+  background-color: var(--bg-secondary);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: white !important;
+  background-color: var(--bg-primary);
+  border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: white !important;
+  background-color: var(--bg-primary);
+  border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 20px !important;
+  margin-right: 20px;
+}
+
+.dropmenucustom {
+  background-color: var(--bg-secondary) !important;
+  border: none !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: white !important;
+  text-decoration: none !important;
+  background-color: var(--bg-primary) !important;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: white !important;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.articulo {
+  bottom: 0;
+}
+
+.articulo.text-articulo {
+  color: red;
+  font-size: 20px;
+}
+
+.zonaArticulos {
+  background-color: white;
+  /* border: var(--bg-primary) 1px solid; */
+}
+.tituloArticulo{
+  font-size: 25px;
+  text-align: right;
+  border-bottom: var(--bg-primary) 2px solid;
+}
+.subtitulos{
+  font-size: 18px;
+  color: var(--bg-primary);
+}
+hr.separadorCustom{
+  background-color: var(--bg-primary);
+  height: 2px;
+}
+
+footer {
+  bottom: 0;
+  background-color: var(--bg-secondary);
+  width: 100%;
+  height: auto;
+}

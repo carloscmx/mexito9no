@@ -7,25 +7,45 @@ input:valid, textarea:valid {
 input:invalid, textarea:invalid {
   background:red;
 }
-</style>
+.cover{
+    background-image: url("cover/cover.jpg");
+    background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+        -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+        -moz-background-size: cover; /* optional for Firefox 3.6 */ 
+        -o-background-size: cover; /* for Opera 9.5 */
+        margin: 0; /* to remove the default white margin of body */
+        padding: 0; /* to remove the default white margin of body */
+        overflow: hidden;
+    
 
+}
+</style>
+<link rel="stylesheet" href="html/css/bootstrap.min.css">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
 </head>
-<body>
-<h3>Inserte dos numeros para saber si es primo o no primo</h3>
+<body class="cover">
+<center>
+<h3>Practica 1- Numero par o impar.</h3> <br> <br>
+<p>Instrucciones: Inserte un numero en cada caja de texto y pulse en verificar.</p> <br>
+<p>Objetivo: El sistema sumara creará un numero de dos digitos y mostrará si el numero es par o impar.</p>
+</center>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+    </div>
+    <div class="col-sm form-control">
+    <center>
 <form action="ejercicio1.php" method="POST">
 <label for="">Inserte el primer numero: </label>
 <input name="numero1" type="number"  min="0" max="9" required>
 <label for="">Inserte el segundo numero</label>
 <input name="numero2" type="number"  min="0" max="9" required>
-<button>Verificar</button>
+<button class="btn btn-success">Verificar</button>
 </form> 
-</body>
-</html>
 <?php
 
 if(isset($_POST['numero1']) && isset($_POST['numero2']))
@@ -62,3 +82,23 @@ function primo($num)
     return False;
 }
 ?>
+
+
+</center>
+    </div>
+    <div class="col-sm">
+        <input type="button" value="Regresar" class="btn btn-danger" onclick="goBack()">
+    </div>
+  </div>
+</div>
+
+</body>
+<script>
+function goBack() {
+  window.location.href="index.php";
+}
+</script>
+<script src="html/js/jquery-3.5.1.min.js"></script>
+
+<script src="html/js/bootstrap.min.js"></script>
+</html>
