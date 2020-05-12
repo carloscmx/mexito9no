@@ -72,8 +72,9 @@
            
               <h2>Grado y Grupo: 9A</h1><br>
       </div>
-
+     <center> <h2>Sección ADA 1</h2></center>
       <div class="row icon-boxes">
+      
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><img src="cover/assets/img/clases/at1.png"></div>
@@ -111,6 +112,20 @@
         </div>
 
       </div>
+<br><br>
+      <center> <h2>Sección Libre</h2></center>
+      <div class="row icon-boxes">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="cover/assets/img/clases/libre1.png"></div>
+            <h4 class="title"><a href="html/index.html">Practica HTML</a></h4>
+            <p class="description">Se crea una pagina sencilla en HTML con las indicaciones propuestas por el profesor.</p>
+            <a href="html/index.html">Ver mas...</a>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </section><!-- End Hero -->
 

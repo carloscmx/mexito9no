@@ -36,6 +36,9 @@ if($validarinput){
 
 <head>
     <meta charset="UTF-8">
+      <!-- Favicons -->
+  <link href="cover/assets/img/favicon.png" rel="icon">
+  <link href="cover/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$titulo?></title>
 </head>
