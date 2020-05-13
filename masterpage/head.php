@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html ng-app="fechaApp" ng-controller="mainCtrl">
+<html ng-app="fechaApp" ng-controller="mainCtrl" lang="es">
 
 <style>
 
 .cover{
-    background-image: url("cover/cover.jpg");
+    background-image: url("cover/assets/img/hero-bg.jpg");
     background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
         -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
         -moz-background-size: cover; /* optional for Firefox 3.6 */ 

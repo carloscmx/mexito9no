@@ -1,7 +1,7 @@
 <?php
 $titulo=" Ejercicio 2";
 $subtitulo=" Practica 2- Serie de Lucas y Fibbonacci.";
-$instruccion=" Inserte un numero en cada caja de texto y pulse en calcular.";
+$instruccion=" Inserte un número en cada caja de texto y pulse en calcular.";
 $objetivo=" El sistema generá ambas series depediendo de la longitud deseada.";
 $validarinput=1;
 include_once("masterpage/head.php");

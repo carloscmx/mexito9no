@@ -1,8 +1,8 @@
 <?php
 $titulo=" Ejercicio 3";
-$subtitulo=" Practica 3- Imprimir numeros impares.";
+$subtitulo=" Practica 3- Imprimir números impares.";
 $instruccion=" Inserte el nombre para crear un archivo de texto.";
-$objetivo=" El sistema generará un archivo con el nombre deseado y mostrara los numeros impares del 1 al 100.";
+$objetivo=" El sistema generará un archivo con el nombre deseado y mostrara los números impares del 1 al 100.";
 $validarinput=1;
 include_once("masterpage/head.php");
 ?>
@@ -27,7 +27,7 @@ for($i=0; $i<101; $i++){
   if ($i%2==0){
   //  echo "el $i es par";
 }else{
-  $cadena .="El numero ".$i." es impar"."\n";
+  $cadena .="El número ".$i." es impar"."\n";
 }
 }
   $texto =$cadena;

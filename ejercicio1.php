@@ -1,8 +1,8 @@
 <?php
 $titulo=" Ejercicio 1";
-$subtitulo=" Practica 1- Numero par o impar.";
-$instruccion=" Inserte un numero en cada caja de texto y pulse en verificar.";
-$objetivo=" El sistema sumara creará un numero y mostrará si el numero es par o impar.";
+$subtitulo=" Practica 1- Números primos.";
+$instruccion=" Inserte un número en cada caja de texto y pulse en verificar.";
+$objetivo=" El sistema sumará dos números y mostrará si el número es un número primo.";
 $validarinput=1;
 include_once("masterpage/head.php");
 ?>
@@ -22,12 +22,12 @@ $numeros=$_POST['numero1']+$_POST['numero2'];
 $respuesta="";
 if(primo($numeros))
 {
-$respuesta="<br><p>SI es numero primo</p>";
+$respuesta="<br><p>Y SI es número primo</p>";
 }else
 {
-    $respuesta='<br><p>NO es numero primo</p>';
+    $respuesta='<br><p>Y NO es número primo</p>';
 }
-echo 'El numero '.$numeros.' '.$respuesta;
+echo 'La suma es: '.$numeros.' '.$respuesta;
 unset($_POST['numeros']);
 }
 
