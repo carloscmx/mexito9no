@@ -1,6 +1,6 @@
 <?php
 $titulo=" Ejercicio 4";
-$subtitulo=" Practica 4- Imprimir números impares.";
+$subtitulo=" Práctica 4- Imprimir números impares.";
 $instruccion=" Inserte el intervalo de fechas y elija los dias a imprimir.";
 $objetivo=" Realiza una aplicación que pida un intervalo de fecha y permita que el usuario seleccione los días a mostrar, la aplicación debe de ser capaz de mostrar todos los días que pertenecen a ese intervalo de fecha.";
 $validarinput=0;

@@ -43,6 +43,9 @@ if($validarinput){
     <title><?=$titulo?></title>
 </head>
 <body class="cover">
+<?php
+include_once("masterpage/header.php");
+?>
 <center>
 <br>
 <br>

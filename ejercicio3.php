@@ -1,9 +1,9 @@
 <?php
 $titulo=" Ejercicio 3";
-$subtitulo=" Practica 3- Imprimir números impares.";
+$subtitulo=" Práctica 3- Imprimir números impares.";
 $instruccion=" Inserte el nombre para crear un archivo de texto.";
 $objetivo=" El sistema generará un archivo con el nombre deseado y mostrara los números impares del 1 al 100.";
-$validarinput=1;
+$validarinput=0;
 include_once("masterpage/head.php");
 ?>
 

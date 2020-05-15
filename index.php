@@ -38,21 +38,10 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-
-      <h1 class="logo mr-auto"><a href="index.html">Inicio</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="cover/assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-
-
-  <!--    <a href="#about" class="get-started-btn scrollto"></a> -->
-
-    </div>
-  </header><!-- End Header -->
-
+ 
+<?php
+include_once("masterpage/header.php");
+?>
   <!-- ======= Hero Section ======= -->
   <section id="hero" >
     <div class="container position-relative" >
@@ -78,36 +67,36 @@
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><img src="cover/assets/img/clases/at1.png"></div>
-            <h4 class="title"><a href="ejercicio1.php">Practica 1- Números primos</a></h4>
-            <p class="description">En un formulario se tendrán que teclear dos números y al sumarlos el sistema indicara que se trata de un número par o impar.</p>
-            <a href="ejercicio1.php">Ver mas...</a>
+            <h4 class="title"><a href="ejercicio1.php">Práctica 1- Números primos</a></h4>
+            <p class="description">En un formulario se tendrán que teclear dos números y al sumarlos el sistema indicará que se trata de un número par o impar.</p>
+            <a href="ejercicio1.php">Ver más...</a>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
           <div class="icon-box">
             <div class="icon"><img src="cover/assets/img/clases/at2.png"></div>
-            <h4 class="title"><a href="ejercicio2.php">Practica 2- Serie de Lucas y Fibbonacci</a></h4>
+            <h4 class="title"><a href="ejercicio2.php">Práctica 2- Serie de Lucas y Fibbonacci</a></h4>
             <p class="description">Se insertan dos números en un formulario para definir la longitud de ambas series.</p>
-            <a href="ejercicio2.php">Ver mas...</a>
+            <a href="ejercicio2.php">Ver más...</a>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
           <div class="icon-box">
             <div class="icon"><img src="cover/assets/img/clases/at3.png"></div>
-            <h4 class="title"><a href="ejercicio3.php">Practica 3- Números impares</a></h4>
+            <h4 class="title"><a href="ejercicio3.php">Práctica 3- Números impares</a></h4>
             <p class="description">El sistema generará un archivo con el nombre deseado y mostrara los números impares del 1 al 100.</p>
-            <a href="ejercicio3.php">Ver mas...</a>
+            <a href="ejercicio3.php">Ver más...</a>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
           <div class="icon-box">
             <div class="icon"><img src="cover/assets/img/clases/at4.png"></div>
-            <h4 class="title"><a href="ejercicio4.php">Practica 4- Intervalo de fechas</a></h4>
+            <h4 class="title"><a href="ejercicio4.php">Práctica 4- Intervalo de fechas</a></h4>
             <p class="description">La aplicación pide un intervalo de fecha y permita que el usuario seleccione los días a mostrar, la aplicación debe de ser capaz de mostrar todos los días que pertenecen a ese intervalo de fecha</p>
-            <a href="ejercicio4.php">Ver mas...</a>
+            <a href="ejercicio4.php">Ver más...</a>
           </div>
         </div>
 
@@ -118,9 +107,9 @@
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><img src="cover/assets/img/clases/libre1.png"></div>
-            <h4 class="title"><a href="html/index.html">Practica HTML</a></h4>
-            <p class="description">Se crea una pagina sencilla en HTML con las indicaciones propuestas por el profesor.</p>
-            <a href="html/index.html">Ver mas...</a>
+            <h4 class="title"><a href="html/index.html">Práctica HTML</a></h4>
+            <p class="description">Se crea una página sencilla en HTML con las indicaciones propuestas por el profesor.</p>
+            <a href="html/index.html">Ver más...</a>
           </div>
         </div>
 

@@ -1,9 +1,9 @@
 <?php
 $titulo=" Ejercicio 2";
-$subtitulo=" Practica 2- Serie de Lucas y Fibbonacci.";
+$subtitulo=" Práctica 2- Serie de Lucas y Fibbonacci.";
 $instruccion=" Inserte un número en cada caja de texto y pulse en calcular.";
 $objetivo=" El sistema generá ambas series depediendo de la longitud deseada.";
-$validarinput=1;
+$validarinput=0;
 include_once("masterpage/head.php");
 ?>
 
@@ -24,7 +24,7 @@ include_once("masterpage/head.php");
     </td>
 	</tr>
 	<tr>
-		<td> <input type="submit" value="calcular" class="btn btn-success"> </td>
+		<td> <input type="submit" value="Calcular" class="btn btn-success"> </td>
 	</tr>
 </table>
 </form>
