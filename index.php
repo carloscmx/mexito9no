@@ -101,6 +101,31 @@ include_once("masterpage/header.php");
         </div>
 
       </div>
+
+
+      <br><br>
+      <center> <h2>Sección ADA 2</h2></center>
+      <div class="row icon-boxes">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="cover/assets/img/clases/at5.png"></div>
+            <h4 class="title"><a href="ejercicio5.php">Práctica 5- Redimensión de imagenes</a></h4>
+            <p class="description">Para para redimensión de una imagen que se suba al servidor (la aplicación será capaz de crear la imagen física en los tamaños de 300x300px y 600x600px).</p>
+            <a href="ejercicio5.php">Ver más...</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="cover/assets/img/clases/at6.png"></div>
+            <h4 class="title"><a href="ejercicio6.php">Práctica 6- Calcular interés</a></h4>
+            <p class="description">Aplicación para calcular el interés compuesto y el interés simple.</p>
+            <a href="ejercicio6.php">Ver más...</a>
+          </div>
+        </div>
+
+      </div>
+
 <br><br>
       <center> <h2>Sección Libre</h2></center>
       <div class="row icon-boxes">
@@ -110,6 +135,15 @@ include_once("masterpage/header.php");
             <h4 class="title"><a href="html/index.html">Práctica HTML</a></h4>
             <p class="description">Se crea una página sencilla en HTML con las indicaciones propuestas por el profesor.</p>
             <a href="html/index.html">Ver más...</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="cover/assets/img/clases/libre2.png"></div>
+            <h4 class="title"><a href="libre2.php">Práctica Login</a></h4>
+            <p class="description">Pagina web en php para registro de usuarios, se utilizo mysql como motor de base de datos y cifrado HASH2 para las contraseñas</p>
+            <a href="libre2.php">Ver más...</a>
           </div>
         </div>
 

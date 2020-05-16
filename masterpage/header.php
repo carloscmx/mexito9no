@@ -27,12 +27,26 @@
 
 <div class="btn-group">
   <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+    Sección ADA 2
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+    <!-- dropdown menu links -->
+          <a class="dropdown-item" href="ejercicio5.php">Ejercicio 1</a>
+          <a class="dropdown-item" href="ejercicio6.php">Ejercicio 2</a>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
     Seccíon Libre
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu">
     <!-- dropdown menu links -->
     <a class="dropdown-item" href="html/index.html">Maquetado HTML</a>
+    <a class="dropdown-item" href="libre2.php">Login</a>
+
   </ul>
 </div>
 

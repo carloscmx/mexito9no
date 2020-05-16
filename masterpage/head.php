@@ -1,3 +1,6 @@
+<?php
+$row="";
+?>
 <!DOCTYPE html>
 <html ng-app="fechaApp" ng-controller="mainCtrl" lang="es">
 
@@ -58,5 +61,5 @@ include_once("masterpage/header.php");
   <div class="row">
     <div class="col-sm">
     </div>
-    <div class="col-sm form-control">
+    <div class="col-sm form-control" id="result">
     <center>

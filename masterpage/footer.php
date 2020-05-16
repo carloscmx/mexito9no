@@ -6,6 +6,8 @@
   </div>
 </div>
 
+<?=$row?>
+
 </body>
 <script>
 function goBack() {
