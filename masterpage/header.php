@@ -7,12 +7,12 @@
 
      <!-- <h1 class="logo mr-auto"><a href="index.html">Inicio</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.php" class="logo mr-auto"><img src="cover/logo.png" alt="" class="img-fluid"></a>
+      <a href="index.php" class="logo mr-auto"><img id="logo-cover" src="cover/logo.png" alt="" class="img-fluid"></a>
 
      
 
         <div class="btn-group">
-  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+  <a class="btn dropdown-toggle head" data-toggle="dropdown" href="#">
     Sección ADA 1
     <span class="caret"></span>
   </a>
@@ -26,7 +26,7 @@
 </div>
 
 <div class="btn-group">
-  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+  <a class="btn dropdown-toggle head" data-toggle="dropdown" href="#">
     Sección ADA 2
     <span class="caret"></span>
   </a>
@@ -38,7 +38,7 @@
 </div>
 
 <div class="btn-group">
-  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+  <a class="btn dropdown-toggle head" data-toggle="dropdown" href="#" >
     Seccíon Libre
     <span class="caret"></span>
   </a>

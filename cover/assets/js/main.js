@@ -114,8 +114,16 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      $('.head').addClass('head-scrolled');
+      $("#logo-cover").attr("src","cover/logo1.png");
     } else {
       $('#header').removeClass('header-scrolled');
+      $('.head').removeClass('head-scrolled');
+      $("#logo-cover").attr("src","cover/logo.png");
+      
+
+    
+
     }
   });
 

@@ -17,7 +17,6 @@ $row="";
         overflow: hidden;
 		overflow: scroll;
     
-
 }
 <?php
 if($validarinput){

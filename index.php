@@ -22,7 +22,7 @@
   <link href="cover/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="cover/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="cover/assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="cover/assets/vendor/owl.carousel/cover/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="cover/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="cover/assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
