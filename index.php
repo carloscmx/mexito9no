@@ -126,6 +126,46 @@ include_once("masterpage/header.php");
 
       </div>
 
+      <center> <h2>Sección ADA 3</h2></center>
+      <div class="row icon-boxes">
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="cover/assets/img/clases/libre2.png"></div>
+            <h4 class="title"><a href="libre2.php">Práctica 7 Login</a></h4>
+            <p class="description">Pagina web en php para registro de usuarios, se utilizo mysql como motor de base de datos y cifrado HASH2 para las contraseñas</p>
+            <a href="libre2.php">Ver más...</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="cover/assets/img/clases/at8.png"></div>
+            <h4 class="title"><a href="#" data-toggle="modal" data-target="#exampleModals">Práctica 8- CRUD (Laravel)</a></h4>
+            <p class="description">Realiza una aplicación (crud) para agregar, eliminar, editar y buscar en una base de datos usuarios con los datos de la siguiente imagen (usar Laravel).</p>
+            <a href="#" data-toggle="modal" data-target="#exampleModals">Ver más...</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="cover/assets/img/clases/at9.png"></div>
+            <h4 class="title"><a href="#" data-toggle="modal" data-target="#exampleModal">Práctica 9- CRUD (CodeIgnater)</a></h4>
+            <p class="description">- Realiza una aplicación (crud) para agregar, eliminar, editar y buscar en una base de datos usuarios con los datos de la siguiente imagen (usar CodeIgnater).</p>
+            <a href="#" data-toggle="modal" data-target="#exampleModal">Ver más...</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="cover/assets/img/clases/at10.png"></div>
+            <h4 class="title"><a href="ejercicio10.php">Práctica 10- Carta Recomendacion</a></h4>
+            <p class="description"> Realiza una aplicación que solicite al usuario la información que esta las líneas del siguiente documento (la aplicación debe de generar un pdf con la información solicitada)</p>
+            <a href="ejercicio10.php">Ver más...</a>
+          </div>
+        </div>
+
+      </div>
+
 <br><br>
       <center> <h2>Sección Libre</h2></center>
       <div class="row icon-boxes">
@@ -144,6 +184,18 @@ include_once("masterpage/header.php");
             <h4 class="title"><a href="libre2.php">Práctica Login</a></h4>
             <p class="description">Pagina web en php para registro de usuarios, se utilizo mysql como motor de base de datos y cifrado HASH2 para las contraseñas</p>
             <a href="libre2.php">Ver más...</a>
+          </div>
+        </div>
+
+        
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="cover/assets/img/clases/producto_f.png"></div>
+            <h4 class="title"><a href="http://proyecto.softpay.info" target="_blank">Producto Final</a></h4>
+            <p class="description">La empresa LIBROSYUC ha decidido lanzar en ésta época de pandemia el siguiente proyecto: LIBROSPARATI...</p>
+            <p class="description">Usuario: administrator</p>
+            <p class="description">Password: 12345</p>
+            <a href="http://proyecto.softpay.info" target="_blank">Ver más...</a>
           </div>
         </div>
 
@@ -183,3 +235,52 @@ include_once("masterpage/header.php");
 </body>
 
 </html>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Crud- Codeigniter</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <video width="465" controls>
+  <source src="recursos/videos/codeigniter.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModals" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Crud- Laravel</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <video width="465" controls>
+  <source src="recursos/videos/laravel.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>

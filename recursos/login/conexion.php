@@ -5,7 +5,7 @@
 
 		public static function conectar(){
 			$pdo_options[PDO::ATTR_ERRMODE]=PDO::ERRMODE_EXCEPTION;
-			self::$conexion=new PDO('mysql:host=localhost;dbname=baselogin','root','',$pdo_options);
+			self::$conexion=new PDO('mysql:host=sql204.epizy.com;dbname=epiz_25909392_baselogin','epiz_25909392','geniux481',$pdo_options);
 			return self::$conexion;
 		}
 	}
